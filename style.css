@@ -1,3 +1,7 @@
+html, * {
+    box-sizing: border-box;
+}
+
 html, body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -6,6 +10,8 @@ html, body {
 a {
     font-size: 24px;
     color: purple;
+    text-decoration:underline;
+    text-decoration-style: dotted;
 }
 
 h1 {
@@ -16,8 +22,8 @@ header {
     border: solid purple 10px;
     text-align: center;
     background-color: grey;
-    position: fixed;
-    height: 130px;
+    position: sticky;
+    height: 150px;
     width: 100%;
     margin: 0;
     top: 0;
@@ -25,4 +31,8 @@ header {
 
 main {
     margin-top: 160px;
+}
+
+p {
+    color: blue
 }
